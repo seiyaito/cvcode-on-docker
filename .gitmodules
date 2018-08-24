@@ -1,0 +1,3 @@
+[submodule "CVPR2018/3D_Semantic_Segmentation_with_Submanifold_Sparse_Convolutional_Networks/workspace/SparseConvNet"]
+	path = CVPR2018/3D_Semantic_Segmentation_with_Submanifold_Sparse_Convolutional_Networks/workspace/SparseConvNet
+	url = https://github.com/facebookresearch/SparseConvNet

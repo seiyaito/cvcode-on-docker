@@ -1,0 +1,15 @@
+version: '2.3'
+services:
+    sparseconvnet:
+        build: "dockerfiles"
+        image: sparseconvnet
+        container_name: sparseconvnet
+        runtime: nvidia
+        volumes:
+            - "./workspace:/root/workspace"
+        tty: True
+
+networks:
+  default:
+    driver: bridge
+
