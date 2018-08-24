@@ -1,0 +1,16 @@
+version: '2.3'
+services:
+    neural_renderer:
+        build: "dockerfiles"
+        image: neural_renderer
+        container_name: neural_renderer
+        runtime: nvidia
+        volumes:
+            - "./workspace:/root/workspace"
+            - "../scripts:/root/scripts"
+        tty: True
+
+networks:
+  default:
+    driver: bridge
+

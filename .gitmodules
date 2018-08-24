@@ -4,3 +4,15 @@
 [submodule "CVPR2018/PU-Net_Point_Cloud_Upsampling_Network/workspace/PU-Net"]
 	path = CVPR2018/PU-Net_Point_Cloud_Upsampling_Network/workspace/PU-Net
 	url = https://github.com/yulequan/PU-Net
+[submodule "CVPR2018/Neural_3D_Mesh_Renderer/workspace/deep_dream_3d"]
+	path = CVPR2018/Neural_3D_Mesh_Renderer/workspace/deep_dream_3d
+	url = https://github.com/hiroharu-kato/deep_dream_3d
+[submodule "CVPR2018/Neural_3D_Mesh_Renderer/workspace/mesh_reconstruction"]
+	path = CVPR2018/Neural_3D_Mesh_Renderer/workspace/mesh_reconstruction
+	url = https://github.com/hiroharu-kato/mesh_reconstruction
+[submodule "CVPR2018/Neural_3D_Mesh_Renderer/workspace/neural_renderer"]
+	path = CVPR2018/Neural_3D_Mesh_Renderer/workspace/neural_renderer
+	url = https://github.com/hiroharu-kato/neural_renderer
+[submodule "CVPR2018/Neural_3D_Mesh_Renderer/workspace/style_transfer_3d"]
+	path = CVPR2018/Neural_3D_Mesh_Renderer/workspace/style_transfer_3d
+	url = https://github.com/hiroharu-kato/style_transfer_3d
