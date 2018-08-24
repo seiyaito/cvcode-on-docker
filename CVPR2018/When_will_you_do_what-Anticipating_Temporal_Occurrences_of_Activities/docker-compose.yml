@@ -1,0 +1,15 @@
+version: '2.3'
+services:
+    anticipating-activities:
+        build: "dockerfiles"
+        image: anticipating-activities
+        container_name: anticipating-activities
+        runtime: nvidia
+        volumes:
+            - "./workspace:/root/workspace"
+        tty: True
+
+networks:
+  default:
+    driver: bridge
+

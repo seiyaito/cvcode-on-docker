@@ -16,3 +16,6 @@
 [submodule "CVPR2018/Neural_3D_Mesh_Renderer/workspace/style_transfer_3d"]
 	path = CVPR2018/Neural_3D_Mesh_Renderer/workspace/style_transfer_3d
 	url = https://github.com/hiroharu-kato/style_transfer_3d
+[submodule "CVPR2018/When_will_you_do_what-Anticipating_Temporal_Occurrences_of_Activities/workspace/anticipating-activities"]
+	path = CVPR2018/When_will_you_do_what-Anticipating_Temporal_Occurrences_of_Activities/workspace/anticipating-activities
+	url = https://github.com/yabufarha/anticipating-activities
