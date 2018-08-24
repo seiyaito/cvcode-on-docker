@@ -1,0 +1,17 @@
+version: '2.3'
+services:
+    flash-mnist:
+        build: "dockerfiles"
+        image: flash-mnist
+        container_name: flash-mnist
+        runtime: nvidia
+        volumes:
+            - "./workspace:/root/workspace"
+            - "~/data:/root/data"
+            - "/usr/local/MATLAB:/usr/local/MATLAB"
+        tty: True
+
+networks:
+  default:
+    driver: bridge
+

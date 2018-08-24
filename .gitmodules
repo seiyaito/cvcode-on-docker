@@ -19,3 +19,6 @@
 [submodule "CVPR2018/When_will_you_do_what-Anticipating_Temporal_Occurrences_of_Activities/workspace/anticipating-activities"]
 	path = CVPR2018/When_will_you_do_what-Anticipating_Temporal_Occurrences_of_Activities/workspace/anticipating-activities
 	url = https://github.com/yabufarha/anticipating-activities
+[submodule "CVPR2018/Attention_Clusters_Purely_Attention_Based_Local_Feature_Integration_for_Video_Classification/workspace/Flash-MNIST"]
+	path = CVPR2018/Attention_Clusters_Purely_Attention_Based_Local_Feature_Integration_for_Video_Classification/workspace/Flash-MNIST
+	url = https://github.com/longxiang92/Flash-MNIST
