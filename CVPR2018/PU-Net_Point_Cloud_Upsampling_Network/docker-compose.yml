@@ -1,0 +1,16 @@
+version: '2.3'
+services:
+    pu-net:
+        build: "dockerfiles"
+        image: pu-net
+        container_name: pu-net
+        runtime: nvidia
+        volumes:
+            - "./workspace:/root/workspace"
+            - "../../scripts:/root/scripts"
+        tty: True
+
+networks:
+  default:
+    driver: bridge
+
