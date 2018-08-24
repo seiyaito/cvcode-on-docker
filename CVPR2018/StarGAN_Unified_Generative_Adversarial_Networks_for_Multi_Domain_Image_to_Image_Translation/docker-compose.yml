@@ -1,0 +1,15 @@
+version: '2.3'
+services:
+    stargan:
+        build: "dockerfiles"
+        image: stargan
+        container_name: stargan
+        runtime: nvidia
+        volumes:
+            - "./workspace:/root/workspace"
+        tty: True
+
+networks:
+  default:
+    driver: bridge
+
