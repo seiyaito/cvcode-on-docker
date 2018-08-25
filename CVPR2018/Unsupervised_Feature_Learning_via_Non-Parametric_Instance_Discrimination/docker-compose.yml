@@ -1,0 +1,15 @@
+version: '2.3'
+services:
+    lemniscate.pytorch:
+        build: "dockerfiles"
+        image: lemniscate.pytorch
+        container_name: lemniscate.pytorch
+        runtime: nvidia
+        volumes:
+            - "./workspace:/root/workspace"
+        tty: True
+
+networks:
+  default:
+    driver: bridge
+

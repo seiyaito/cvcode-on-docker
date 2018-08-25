@@ -37,3 +37,6 @@
 [submodule "CVPR2018/Future_Frame_Prediction_for_Anomaly_Detection_A_New_Baseline/workspace/ano_pred_cvpr2018"]
 	path = CVPR2018/Future_Frame_Prediction_for_Anomaly_Detection_A_New_Baseline/workspace/ano_pred_cvpr2018
 	url = https://github.com/StevenLiuWen/ano_pred_cvpr2018
+[submodule "CVPR2018/Unsupervised_Feature_Learning_via_Non-Parametric_Instance_Discrimination/workspace/lemniscate.pytorch"]
+	path = CVPR2018/Unsupervised_Feature_Learning_via_Non-Parametric_Instance_Discrimination/workspace/lemniscate.pytorch
+	url = https://github.com/zhirongw/lemniscate.pytorch
