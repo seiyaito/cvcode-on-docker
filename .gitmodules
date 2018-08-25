@@ -22,3 +22,6 @@
 [submodule "CVPR2018/Attention_Clusters_Purely_Attention_Based_Local_Feature_Integration_for_Video_Classification/workspace/Flash-MNIST"]
 	path = CVPR2018/Attention_Clusters_Purely_Attention_Based_Local_Feature_Integration_for_Video_Classification/workspace/Flash-MNIST
 	url = https://github.com/longxiang92/Flash-MNIST
+[submodule "CVPR2018/StarGAN_Unified_Generative_Adversarial_Networks_for_Multi_Domain_Image_to_Image_Translation/workspace/StarGAN"]
+	path = CVPR2018/StarGAN_Unified_Generative_Adversarial_Networks_for_Multi_Domain_Image_to_Image_Translation/workspace/StarGAN
+	url = https://github.com/yunjey/StarGAN
