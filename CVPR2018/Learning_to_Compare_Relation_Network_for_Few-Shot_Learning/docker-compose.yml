@@ -1,0 +1,15 @@
+version: '2.3'
+services:
+    learningtocompare_fsl:
+        build: "dockerfiles"
+        image: learningtocompare_fsl
+        container_name: learningtocompare_fsl
+        runtime: nvidia
+        volumes:
+            - "./workspace:/root/workspace"
+        tty: True
+
+networks:
+  default:
+    driver: bridge
+
