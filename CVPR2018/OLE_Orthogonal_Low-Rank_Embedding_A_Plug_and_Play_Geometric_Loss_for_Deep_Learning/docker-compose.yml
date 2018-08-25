@@ -1,0 +1,15 @@
+version: '2.3'
+services:
+    orthogonallowrankembedding:
+        build: "dockerfiles"
+        image: orthogonallowrankembedding
+        container_name: orthogonallowrankembedding
+        runtime: nvidia
+        volumes:
+            - "./workspace:/root/workspace"
+        tty: True
+
+networks:
+  default:
+    driver: bridge
+
