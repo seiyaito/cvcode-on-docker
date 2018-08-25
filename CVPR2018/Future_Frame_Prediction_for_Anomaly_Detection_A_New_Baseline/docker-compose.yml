@@ -1,0 +1,15 @@
+version: '2.3'
+services:
+    ano_pred_cvpr2018:
+        build: "dockerfiles"
+        image: ano_pred_cvpr2018
+        container_name: ano_pred_cvpr2018
+        runtime: nvidia
+        volumes:
+            - "./workspace:/root/workspace"
+        tty: True
+
+networks:
+  default:
+    driver: bridge
+
