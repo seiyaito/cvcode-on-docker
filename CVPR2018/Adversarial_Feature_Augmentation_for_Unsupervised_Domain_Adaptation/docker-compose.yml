@@ -1,0 +1,15 @@
+version: '2.3'
+services:
+    adversarial-feature-augmentation:
+        build: "dockerfiles"
+        image: adversarial-feature-augmentation
+        container_name: adversarial-feature-augmentation
+        runtime: nvidia
+        volumes:
+            - "./workspace:/root/workspace"
+        tty: True
+
+networks:
+  default:
+    driver: bridge
+
